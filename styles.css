@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: 0;
+}
+
+.navbar{
+    width: 100%;
+    padding: 20px 20px;
+    font-family: 'Ubuntu';
+}
+
+.navbar ul{
+    position: fixed;
+    font-size: 20px;
+}
+
+.navbar .max-width{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.navbar .max-width .title{
+    text-align: center;
+}
+
+.navbar .max-width .title p{
+    margin-top: 13px;
+    font-size: 10px;
+}
+
+.navbar .title{
+    margin: 0 auto;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Akshar";
+}
+
+.navbar input, .navbar i{
+    margin-right: 15px;
+}
+
+/*images section*/
+
+img{
+    width: 20%;
+}
+
+.images{
+    width: 100vw;
+}
+
+.images .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+/*discount css*/
+
+.discount{
+    width: 100vw;
+    height: 40vh;
+    border-top: 2px solid #d9d9d9;
+    border-bottom: 2px solid #d9d9d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-family: "Akshar";
+}
+
+.discount form{
+    margin-top: 30px;
+    display: flex;
+    font-size: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.discount input{
+    border: 0;
+    border-bottom: 2px solid black;
+    padding: 5px 70px;
+}
+
+/*contact css*/
+
+.contact{
+    width: 100vw;
+    height: 25vh;
+    border-bottom: 2px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Ubuntu";
+}
+
+.contact .tlfno{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact .tlfno p{
+    margin-right: 5px;
+    padding: 0 7px;
+}
+
+/*polytics*/
+.polytics{
+    width: 100vw;
+    height: 40vh;
+    font-family: "Ubuntu";
+    font-size: 12px;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.container{
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-around;
+}
+
+.container h4{
+    margin-bottom: 40px;
+    font-family: "Akshar";
+}
+
+.container li{
+    margin-bottom: 8px;
+}
+
+/*APP CSS*/
+
+.app{
+    font-family: "Ubuntu";
+    font-size: 10px;
+    text-align: center;
+}
+
+.spain, .android{
+    border-right: 2px solid #d9d9d9;
+    padding-right: 100px;
+}
